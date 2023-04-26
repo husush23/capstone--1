@@ -115,13 +115,13 @@ body {
 
   .desc-header {
     font-size: 25px;
-    color: #f00;
+    color: #ec5242;
   }
 
   .description h1 {
     font-size: 250%;
     font-weight: 700;
-    color: #f00;
+    color: #ec5242;
     line-height: 38px;
   }
 
@@ -233,8 +233,6 @@ body {
     align-items: center;
     margin-top: 20px;
     margin-left: 30px;
-
-    /* border: #ec5242 dashed 2px; */
   }
 
   .speaker-img {
@@ -375,13 +373,13 @@ body {
 
   .desc-header {
     font-size: 25px;
-    color: #f00;
+    color: #ec5242;
   }
 
   .description h1 {
     font-size: 250%;
     font-weight: 900;
-    color: #f00;
+    color: #ec5242;
     line-height: 55px;
   }
 
