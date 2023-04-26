@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<a name="readme-top">Fitness</a>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -24,16 +24,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 'My Portfolio project <a name="about-project"></a>
+# 📖 'Fitness <a name="about-project"></a>
 
-**My portfolio** is a project based on first mobile structure and it is complete portfolio with even desktop responsive version.
+**Fitness Website** is a project based on first mobile structure and it is complete static website with even desktop responsive version.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>portfolio website</summary>
+  <summary>Website for fitness seminar</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
@@ -54,7 +54,7 @@ In order to run this project you need: only to clone this github repo
 Clone this repository to your desired folder:
 
 - cd my-folder
-- git clone https://github.com/husush23/porfolio.gitt
+- git clone https://github.com/husush23/capstone-1.git
 
 ### Install
 
@@ -94,7 +94,9 @@ If you like this project please follow on my social media platform listed above.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank everyone who encourages me doing all these tasks.
+- The owner of the original design is Cindy Shin in Behance.
+
+- You see video describing this website here:https://www.loom.com/share/baa43628e9604f58914b10aeb31a0eff
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

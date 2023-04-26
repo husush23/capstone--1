@@ -40,6 +40,14 @@ body {
   .mobile-menu {
     margin-top: 10px;
   }
+  .around {
+    display: flex;
+    gap: 300px;
+  }
+  .around img {
+    width: 60px;
+    height: 50px;
+  }
 
   .menu {
     background-color: #ec5242;

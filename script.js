@@ -1,21 +1,22 @@
 const menuBtn = document.querySelector('.menuBtn');
 const menu = document.querySelector('.menu');
-const closeMenu = document.querySelector('.close-menu');
+const closeBtn = document.querySelector('.close-menu');
 const desc = document.querySelector('.description');
-menuBtn.addEventListener('click', (e) => {
-  e.preventDefault();
+function openMenu() {
   menu.classList.remove('hidden');
   menuBtn.classList.add('hidden');
-  closeMenu.classList.remove('hidden');
+  closeBtn.classList.remove('hidden');
   desc.classList.add('blur');
-});
-closeMenu.addEventListener('click', (e) => {
-  e.preventDefault();
+}
+function closeMenu() {
   menuBtn.classList.remove('hidden');
   menu.classList.add('hidden');
-  closeMenu.classList.add('hidden');
+  closeBtn.classList.add('hidden');
   desc.classList.remove('blur');
-});
+}
+
+menuBtn.addEventListener('click', openMenu);
+closeBtn.addEventListener('click', closeMenu);
 
 const cards = [
   {
@@ -23,42 +24,42 @@ const cards = [
     title: 'Senior gym coach',
     description:
       ' Lorem ipsum dolor, sit amet consectetur adipisicing elit Similique itaque distinctio inventore perspiciatis hic veniam doloribus quasi laboriosam adipisci In esse nulla quis officiisaspernatur sequi quaerat voluptates repudiandae vitae libero earum',
-    img: './img/coach-1.jpg',
+    img: './img/p1.png',
   },
   {
     coach: 'Smith Rowe',
     title: 'Senior gym coach',
     description:
       ' Lorem ipsum dolor, sit amet consectetur adipisicing elit Similique itaque distinctio inventore perspiciatis hic veniam doloribus quasi laboriosam adipisci In esse nulla quis officiisaspernatur sequi quaerat voluptates repudiandae vitae libero earum',
-    img: './img/coach-2.jpg',
+    img: './img/p2.png',
   },
   {
     coach: 'John Blade',
     title: 'Gym coach',
     description:
       ' Lorem ipsum dolor, sit amet consectetur adipisicing elit Similique itaque distinctio inventore perspiciatis hic veniam doloribus quasi laboriosam adipisci In esse nulla quis officiisaspernatur sequi quaerat voluptates repudiandae vitae libero earum',
-    img: './img/coach-3.jpg',
+    img: './img/p3.png',
   },
   {
     coach: 'Rath Bowe',
     title: 'Food diet expert',
     description:
       ' Lorem ipsum dolor, sit amet consectetur adipisicing elit Similique itaque distinctio inventore perspiciatis hic veniam doloribus quasi laboriosam adipisci In esse nulla quis officiisaspernatur sequi quaerat voluptates repudiandae vitae libero earum',
-    img: './img/coach-4.jpg',
+    img: './img/p4.png',
   },
   {
     coach: 'Ali Saeed',
     title: ' Nutrition worker ',
     description:
       ' Lorem ipsum dolor, sit amet consectetur adipisicing elit Similique itaque distinctio inventore perspiciatis hic veniam doloribus quasi laboriosam adipisci In esse nulla quis officiisaspernatur sequi quaerat voluptates repudiandae vitae libero earum',
-    img: './img/coach-5.jpg',
+    img: './img/p5.png',
   },
   {
     coach: 'Hussein Mohamed',
     title: 'Bodybuiler',
     description:
       ' Lorem ipsum dolor, sit amet consectetur adipisicing elit Similique itaque distinctio inventore perspiciatis hic veniam doloribus quasi laboriosam adipisci In esse nulla quis officiisaspernatur sequi quaerat voluptates repudiandae vitae libero earum',
-    img: './img/coach-6.jpg',
+    img: './img/p6.png',
   },
 ];
 cards.forEach((card) => {
