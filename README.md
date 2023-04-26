@@ -96,7 +96,7 @@ If you like this project please follow on my social media platform listed above.
 
 - The owner of the original design is Cindy Shin in Behance.
 
-- You see video describing this website here:https://www.loom.com/share/baa43628e9604f58914b10aeb31a0eff
+- You see video describing this website here: https://www.loom.com/share/1a7ec921c5fd4d5b8630b9365f442f1e
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
