@@ -265,7 +265,7 @@ body {
     display: flex;
     background-color: #000b;
     justify-content: end;
-    color: white;
+    color: #fff;
     padding-right: 250px;
     height: 25px;
   }
