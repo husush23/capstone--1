@@ -120,7 +120,7 @@ body {
   .p-1 {
     width: 80%;
     background-color: #d3d3d3;
-    border: 3px solid white;
+    border: 3px solid #fff;
     padding: 5px;
     line-height: 25px;
     font-size: 14px;
