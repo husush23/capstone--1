@@ -66,6 +66,11 @@ You can deploy this project using any hosting server in the world
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+This project is live on demo, you check it here <a href="https://husush23.github.io/capstone-1/">Fitness web</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors">Hussein Hashi</a>
